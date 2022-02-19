@@ -1,0 +1,19 @@
+.result {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.box {
+  color: rgb(40, 82, 161);
+}
+
+@media (max-width: 700px) {
+  .box {
+    width: 20%;
+    height: 300px;
+    color: rgb(40, 82, 161);
+  }
+}
